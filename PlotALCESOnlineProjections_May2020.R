@@ -253,7 +253,7 @@ gg.piwo<-piwo %>%
   ggplot( aes(x=TimePeriod, y=Population.FMA, group=Scenario, color=Scenario)) +
   geom_line(size=1) +
   scale_color_manual(values=c("violet","gold","lightblue","darkblue","red")) +
-  ylab("Palm Warbler") +
+  ylab("Pileated Woodpecker") +
   my.theme + ylim(0,max(piwo$Population.FMA))+
   xlab("Year")
 
@@ -442,7 +442,7 @@ gg.piwo<-piwo %>%
   ggplot( aes(x=TimePeriod, y=MeanDens, group=Scenario, color=Scenario)) +
   geom_line(size=1) +
   scale_color_manual(values=c("violet","gold","lightblue","darkblue","red")) +
-  ylab("Palm Warbler") +
+  ylab("Pileated Woodpecker") +
   my.theme + ylim(0,max(piwo$MeanDens))+
   xlab("Year")
 
