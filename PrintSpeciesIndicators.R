@@ -102,7 +102,7 @@ for (SPP in names){
                       ""),
                "+", 
                ifelse(pref.hab.spp$Rural==1,
-                      "indicator(name='Rural Settlement Unityb', units='density')",
+                      "indicator(name='Rural Acreage Undifferentiated', units='density')",
                       ""),
                "+", 
                ifelse(pref.hab.spp$Industrial==1,
