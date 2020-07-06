@@ -21,10 +21,7 @@ my.theme <- theme_classic() +
 
 DIR<-getwd()
 
-names<-c("BlackbackedWoodpecker","BlackthroatedGreenWarbler",
-         "BlackpollWarbler","BorealChickadee","BrownCreeper",
-         "CapeMayWarbler","PalmWarbler","PileatedWoodpecker",
-         "RustyBlackbird","WesternTanager") 
+names<-c("AmericanThreetoedWoodpecker") 
 
 
 for (SPP in names){
